@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sample</title>
+	<style>
+		/* intentional here to avoid flicking by loading css after DOMContentLoaded */
+		.hidden {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<section id="loadingSection">
+		<img src="assets/img/loader.gif" alt="" id="loadingImg">
+	</section>
+	<section id="mainSection" class="hidden">
+		<br>
+		ES6-webpack sample: <span id="works">Does not work!</span>
+	</section>
+</body>
+</html>
