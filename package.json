@@ -1,7 +1,7 @@
 {
-	"name": "es6-webpack-seed",
-	"version": "0.0.2",
-	"description": "es6 webpack seed",
+	"name": "seed-web-es6",
+	"version": "0.0.3",
+	"description": "seed web es6",
 	"scripts": {
 		"start": "webpack-dev-server --mode development --port 3000",
 		"build": "webpack --mode production",
@@ -36,7 +36,7 @@
 	"husky": {
 		"hooks": {
 			"pre-commit": "npm run lint",
-			"pre-push": "npm run lint"
+			"pre-push": "npm run coverage && npm run build"
 		}
 	},
 	"license": "MIT",
@@ -45,16 +45,21 @@
 	],
 	"keywords": [
 		"seed",
+		"bootstrap",
+		"boilerplate",
 		"es6",
 		"webpack",
+		"babel",
+		"istanbul",
+		"jest",
 		"scss",
 		"sass",
 		"eslint"
 	],
-	"bugs": "https://github.com/crystian/es6-seed/issues",
-	"homepage": "https://github.com/crystian/es6-seed",
+	"bugs": "https://github.com/crystian/seed-web-es6/issues",
+	"homepage": "https://github.com/crystian/seed-web-es6",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/crystian/es6-seed"
+		"url": "https://github.com/crystian/seed-web-es6"
 	}
 }
