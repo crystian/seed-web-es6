@@ -203,10 +203,3 @@ module.exports = {
 		'\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js'
 	}
 };
-
-//
-// const {defaults} = require('jest-config');
-//
-// module.exports = {
-// 	verbose: true,
-// };

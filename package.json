@@ -3,7 +3,7 @@
 	"version": "0.0.3",
 	"description": "seed web es6",
 	"scripts": {
-		"start": "webpack-dev-server --mode development --port 3000",
+		"start": "webpack-dev-server --mode development --port 3000 --devtool source-map",
 		"build": "webpack --mode production",
 		"test": "jest --watchAll",
 		"coverage": "jest --collectCoverage",
@@ -47,6 +47,8 @@
 		"seed",
 		"bootstrap",
 		"boilerplate",
+		"web",
+		"browser",
 		"es6",
 		"webpack",
 		"babel",

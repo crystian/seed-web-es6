@@ -4,8 +4,8 @@ module.exports = {
 		'ecmaVersion': 6,
 		'sourceType': 'module',
 		'ecmaFeatures': {
-			modules: true,
-			legacyDecorators: true
+			'modules': true,
+			'legacyDecorators': true
 		}
 	},
 	'env': {
