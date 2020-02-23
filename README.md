@@ -13,7 +13,7 @@
 ### scripts:
 
 `npm start` Launch a server with hot-reload on [http://localhost:3000](http://localhost:3000)  
-`npm test` Launch the test with jasmine (`*.spec.js` files)  
+`npm test` Launch the test with jest (`*.spec.js` files)  
 `npm run build` Build the application for publish in `dist` folder  
 `npm run coverage` Launch the test with coverage report.  
 `npm run lint` Launch linter for code style.  
