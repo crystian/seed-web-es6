@@ -1,4 +1,4 @@
-# This is a simple seed for ES6 projects
+# This is a seed for ES6 projects
 
 ### Features
 
@@ -6,7 +6,7 @@
 * Test by [Jest](https://jestjs.io/)
 * Coverage by [Istanbul](https://istanbul.js.org/)
 * Sass by [Node-sass](https://github.com/sass/node-sass)
-* Linter configured by [Eslint](https://eslint.org/)
+* Linter configured by [ESlint](https://eslint.org/)
 * [Normalize.css](https://necolas.github.io/normalize.css/) included
 
 
