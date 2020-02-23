@@ -42,11 +42,14 @@ module.exports = {
 			}
 		]
 	},
-	'globals': {
-		'ExecutorError': true
-	},
+	'globals': {},
 	'parser': 'babel-eslint',
 	'plugins': [
 		'jest'
+	],
+	'ignorePatterns': [
+		'/dist',
+		'/node_modules',
+		'/*.config.js'
 	]
 };

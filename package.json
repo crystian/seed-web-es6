@@ -7,7 +7,7 @@
 		"build": "webpack --mode production",
 		"test": "jest --watchAll",
 		"coverage": "jest --collectCoverage",
-		"lint": "eslint **/*.js --fix"
+		"lint": "eslint -c eslint.config.js **/*.js --fix"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
