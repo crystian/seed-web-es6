@@ -42,27 +42,6 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.js$/,
-				exclude: [
-					/node_modules/
-				],
-				use: [
-					{
-						loader: 'babel-loader',
-						options: {
-							'presets': ['@babel/preset-env'],
-							'plugins': ['@babel/plugin-proposal-class-properties']
-						}
-					},
-					{
-						loader: 'istanbul-instrumenter-loader',
-						options: {
-							esModules: true
-						}
-					}
-				]
-			},
-			{
 				test: /\.css$/,
 				exclude: /node_modules(?!([\/\\])normalize\.css)/,
 				use: [

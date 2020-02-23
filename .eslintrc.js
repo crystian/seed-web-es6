@@ -1,5 +1,5 @@
 module.exports = {
-	'extends': 'eslint:recommended',
+	'extends': ['eslint:recommended', 'plugin:jest/recommended'],
 	'parserOptions': {
 		'ecmaVersion': 6,
 		'sourceType': 'module',
@@ -11,7 +11,7 @@ module.exports = {
 	'env': {
 		'es6': true,
 		'browser': true,
-		'jasmine': true
+		'jest/globals': true
 	},
 	'rules': {
 		'indent': [
@@ -46,7 +46,7 @@ module.exports = {
 		'ExecutorError': true
 	},
 	'parser': 'babel-eslint',
-	plugins: [
-		'jasmine'
+	'plugins': [
+		'jest'
 	]
 };

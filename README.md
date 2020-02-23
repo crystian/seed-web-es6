@@ -2,8 +2,8 @@
 
 ### Features
 
-* ES6 by [Webpack](https://webpack.js.org/) & [Babel](https://babeljs.io/)
-* Test by [Jasmine](https://jasmine.github.io/) & [Karma](https://karma-runner.github.io/4.0/index.html)
+* ES6 by [Babel](https://babeljs.io/)
+* Test by [Jest](https://jestjs.io/) & [Karma](https://karma-runner.github.io/4.0/index.html)
 * Coverage by [Istanbul](https://istanbul.js.org/)
 * Sass by [Node-sass](https://github.com/sass/node-sass)
 * Linter configured by [Eslint](https://eslint.org/)
