@@ -1,3 +1,6 @@
+# DEPRECATED a favor to [vite](https://vitejs.dev/)
+---
+
 # This is a seed for ES6 projects
 
 ### Features
